@@ -1,3 +1,6 @@
+## Status Checker Userbot
+check your bot status automatically using userbot, simply and easy.
+
 ## Mandatory Vars
 1. `API_ID` : Telegram API_ID, get it from my.telegram.org/apps
 2. `API_HASH` : Telegram API_ID, get it from my.telegram.org/apps

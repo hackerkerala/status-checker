@@ -1,7 +1,7 @@
 {
     "name": "veez checker bot",
     "description": "bot status checker",
-    "repository": "https://github.com/levina-lab/status",
+    "repository": "https://github.com/levina-lab/status-checker",
     "keywords": [
         "BotStatus",
         "How to check your bots are alive or not",
@@ -20,11 +20,11 @@
             "required": true
         },
         "SESSION_NAME": {
-            "description": "A valid Pyrogram session name",
+            "description": "Fill with pyrogram session string",
             "required": true
         },
         "BOT_LIST": {
-            "description": "Your bot username list without '@' (Example: teletips1bot teletips2bot teletips3bot)",
+            "description": "Your bot username list without '@' (Example: VeezMusicBot VeezMegaBot)",
             "required": true
         },
        "CHANNEL_OR_GROUP_ID": {
@@ -36,7 +36,7 @@
             "required": true
         },
         "BOT_ADMIN_IDS": {
-            "description": "Bot admin(s) id(s) (Example: 1357907531 2468097531 3579864213)"
+            "description": "fill with your id (Example: 123456 678905)"
         },
         "TIME_ZONE": {
             "description": "Your time zone (Example: Asia/Kolkata)",
